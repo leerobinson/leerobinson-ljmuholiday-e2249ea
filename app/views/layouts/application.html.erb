@@ -1,0 +1,19 @@
+<html>
+<head>
+<%= stylesheet_link_tag 'mystyles' %>
+</head>
+<body>
+
+  <% if flash[:notice] %>
+    <div class="flash"><%= flash[:notice] %></div>
+  <% end %>
+
+  
+  <div id="wrapper">
+  
+  <%= yield %>
+  
+  </div>
+  
+</body>
+</html>

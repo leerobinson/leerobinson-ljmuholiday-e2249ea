@@ -1,0 +1,5 @@
+<title>LJMU Holiday Request System2</title>
+
+<%= render :partial => 'form' %>
+
+
